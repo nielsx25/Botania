@@ -83,7 +83,7 @@ public final class ConfigHandler {
 		desc = "Do not ever touch this value if not asked to. Possible symptoms of doing so include your head turning backwards, the appearance of Titans near the walls or you being trapped in a game of Sword Art Online.";
 		spreaderPositionShift = loadPropInt("spreader.posShift", desc, spreaderPositionShift);
 
-		desc = "The quanity of flower patches to generate in the world, defaults to 3, the lower the number the less patches geenrate.";
+		desc = "The quantity of flower patches to generate in the world, defaults to 3, the lower the number the less patches geenrate.";
 		flowerQuantity = loadPropInt("worldgen.flower.quantity", desc, 3);
 		
 		desc = "The density of each flower patch generataed, defaults to 32, the lower the number, the less each patch will have.";
